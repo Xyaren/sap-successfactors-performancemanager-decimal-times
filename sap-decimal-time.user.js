@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         SAP Decimal Hours
-// @namespace    https://performancemanager5.successfactors.eu
+// @namespace    https://performancemanager5.successfactors.eu/sf/timesheet
 // @version      0.1
 // @description  Show deciaml times
 // @author       Tobias Günther
-// @match        https://performancemanager5.successfactors.eu/sf/timesheet*
+// @match        https://performancemanager5.successfactors.eu/sf/timesheet
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=successfactors.eu
 // @grant        none
 // @run-at document-idle
