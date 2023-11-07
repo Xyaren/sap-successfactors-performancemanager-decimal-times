@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         SAP Decimal Hours
 // @namespace    https://performancemanager5.successfactors.eu/sf/timesheet
-// @version      0.2
+// @version      0.3
 // @description  Show deciaml times in SAP timesheet. Clicking on the numbers will copy them to the clipboard.
 // @author       Tobias Günther
+// @downloadURL  https://github.com/Xyaren/sap-successfactors-performancemanager-decimal-times/raw/main/sap-decimal-time.user.js
+// @updateURL    https://github.com/Xyaren/sap-successfactors-performancemanager-decimal-times/raw/main/sap-decimal-time.user.js
 // @match        https://performancemanager5.successfactors.eu/sf/timesheet
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=successfactors.eu
 // @grant        none
-// @run-at document-idle
+// @run-at       document-idle
 // ==/UserScript==
 
 
