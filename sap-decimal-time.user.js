@@ -2,7 +2,7 @@
 // @name         SAP Decimal Hours
 // @namespace    https://performancemanager5.successfactors.eu/sf/timesheet
 // @version      0.2
-// @description  Show deciaml times
+// @description  Show deciaml times in SAP timesheet. Clicking on the numbers will copy them to the clipboard.
 // @author       Tobias Günther
 // @match        https://performancemanager5.successfactors.eu/sf/timesheet
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=successfactors.eu
