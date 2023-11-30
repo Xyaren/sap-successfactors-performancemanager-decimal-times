@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SAP Decimal Hours
 // @namespace    https://performancemanager5.successfactors.eu/sf/timesheet
-// @version      0.4
+// @version      0.5
 // @description  Show deciaml times in SAP timesheet. Clicking on the numbers will copy them to the clipboard.
 // @author       Tobias Günther
 // @downloadURL  https://github.com/Xyaren/sap-successfactors-performancemanager-decimal-times/raw/main/sap-decimal-time.user.js
@@ -17,7 +17,7 @@
 this.$ = this.jQuery = jQuery.noConflict(true);
 
 function add_decimal_times() {
-    const containers = $('#__component1---timeSheetSummaryView--daysSummaryTableFragement--daysSummaryTable-tblBody td[id*="-timeSheetSummaryView--daysSummaryTableFragement--daysSummaryTable"]');
+    const containers = $('td[id*="-timeSheetSummaryView--daysSummaryTableFragment--daysSummaryTable-"]');
     containers.each(function (index, item) {
         item = $(item)
 
@@ -54,4 +54,3 @@ function add_decimal_times() {
     setInterval(add_decimal_times, 100);
 
 })();
-
